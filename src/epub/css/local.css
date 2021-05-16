@@ -1,2 +1,26 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* Begin dedication CSS */
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:salutation"]{
+	text-indent: 2em;
+}
+
+#dedication header,
+#dedication footer{
+	margin: 2em auto;
+}
+
+#dedication b{
+	padding-left: 6em;
+}
+
+#dedication time{
+	padding-left: 1em;
+}
+/* End dedication CSS */
