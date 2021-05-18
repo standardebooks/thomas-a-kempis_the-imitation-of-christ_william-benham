@@ -24,3 +24,7 @@
 	padding-left: 1em;
 }
 /* End dedication CSS */
+
+#preface ul{
+	list-style-type: none;
+}
