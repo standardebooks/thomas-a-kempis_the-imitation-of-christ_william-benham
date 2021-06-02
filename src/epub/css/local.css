@@ -60,6 +60,12 @@
 }
 /* End verse CSS */
 
+[epub|type~="z3998:subchapter"] header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
 #preface ul{
 	list-style-type: none;
 }
