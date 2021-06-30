@@ -12,8 +12,7 @@ body [xml|lang]{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
+[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 
@@ -42,10 +41,6 @@ body [xml|lang]{
 	text-align: justify;
 	text-indent: 0;
 }
-
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
 /* End bridgehead CSS */
 
 /* Begin verse CSS */
@@ -63,10 +58,6 @@ body [xml|lang]{
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
-
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
 /* End verse CSS */
 
 /* All epigraphs */
@@ -74,21 +65,6 @@ body [xml|lang]{
 	font-style: italic;
 	hyphens: none;
 	-epub-hyphens: none;
-}
-
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	margin-top: 1em;
-	font-style: normal;
-	font-variant: small-caps;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
 }
 /* End all epigraphs */
 
