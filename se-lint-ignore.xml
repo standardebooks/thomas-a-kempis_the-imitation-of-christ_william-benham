@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="dedication.xhtml">
+		<ignore>
+			<code>c-010</code>
+			<reason>Special custom CSS for the dedication.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
