@@ -12,13 +12,17 @@ body [xml|lang]{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:salutation"]{
-	text-indent: 2em;
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
 }
 
-#dedication header,
+#dedication header{
+	margin-top: 2em;
+}
+
 #dedication footer{
-	margin: 2em auto;
+	margin-top: 1em;
 }
 
 #dedication b{
