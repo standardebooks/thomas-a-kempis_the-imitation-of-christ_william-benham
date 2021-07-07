@@ -22,19 +22,7 @@ body [xml|lang]{
 
 #dedication footer{
 	margin-top: 1em;
-}
-
-@supports(display: flex){
-	#dedication footer{
-		display: flex;
-		justify-content: center;
-		text-align: center;
-	}
-
-	#dedication footer p{
-		margin-right: auto;
-		padding-left: 1em;
-	}
+	text-align: right;
 }
 /* End dedication CSS */
 
