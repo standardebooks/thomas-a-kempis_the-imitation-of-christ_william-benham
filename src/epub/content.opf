@@ -48,10 +48,12 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1653</dc:source>
 		<dc:source>https://archive.org/details/imitationchrist07thomgoog</dc:source>
+		<dc:source>https://archive.org/details/dli.bengal.10689.16231</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Imitation_of_Christ</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-a-kempis_the-imitation-of-christ_william-benham</meta>
+		<meta property="se:production-notes">Some Bible citations in the endnotes were erroneous and did not refer to relevant verses. The problematic citations were cross-referenced against Beeching’s translation, which is correct throughout.</meta>
 		<dc:creator id="author">Thomas à Kempis</dc:creator>
 		<meta property="file-as" refines="#author">à Kempis, Thomas</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_%C3%A0_Kempis</meta>
@@ -64,6 +66,12 @@
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="se:role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<meta property="se:role" refines="#translator" scheme="marc:relators">ann</meta>
+		<dc:contributor id="annotator">H. C. Beeching</dc:contributor>
+		<meta property="file-as" refines="#annotator">Beeching, H. C.</meta>
+		<meta property="se:name.person.full-name" refines="#annotator">Henry Charles Beeching</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#annotator">https://en.wikipedia.org/wiki/Henry_Beeching</meta>
+		<meta property="se:url.authority.nacoaf" refines="#annotator">http://id.loc.gov/authorities/names/n82151538</meta>
+		<meta property="role" refines="#annotator" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">El Greco</dc:contributor>
 		<meta property="file-as" refines="#artist">Greco, El</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/El_Greco</meta>
