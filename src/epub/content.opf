@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/thomas-a-kempis/the-imitation-of-christ/william-benham</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-07-08T00:19:21Z</dc:date>
+		<meta property="dcterms:modified">2021-07-08T00:19:21Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -43,17 +43,17 @@
 		<meta property="se:subject">Spirituality</meta>
 		<dc:description id="description">Thomas à Kempis provides instructions for a Christian spiritual life.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Traditionally attributed to &lt;a href="https://standardebooks.org/ebooks/thomas-a-kempis"&gt;Thomas à Kempis&lt;/a&gt;, &lt;i&gt;The Imitation of Christ&lt;/i&gt; is a Christian devotional book dating to the early 15th century. A popular piece of religious literature since it was first circulated, the &lt;i&gt;Imititation&lt;/i&gt; is divided into four books, which instruct the reader to forego external wordly goods in order to attain spiritual peace through following Christ and receiving the sacrament of Communion. Admired by numerous Christian theologians and mystics throughout the course of centuries, the &lt;i&gt;Imitation&lt;/i&gt; even found an audience in India with the 19th-century Hindu philosopher-monk Ramakrisha, who cherished it along with the &lt;i&gt;Bhagavad Gita&lt;/i&gt; as one of his favorite books.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Imitation of Christ&lt;/i&gt; is a Christian devotional book dating to the early 15th century, originally written anonymously but popularly attributed to &lt;a href="https://standardebooks.org/ebooks/thomas-a-kempis"&gt;Thomas à Kempis&lt;/a&gt;. A popular piece of religious literature since it was first circulated, the &lt;i&gt;Imitation&lt;/i&gt; is divided into four books that instruct the reader to forego worldly goods, to follow Christ, and to receive the sacrament of Communion, all in order to attain spiritual peace. Admired by numerous Christian theologians and mystics throughout the course of centuries, it is today considered to be the most-read Christian devotional work besides the Bible, going through over 745 printings before 1650. It &lt;i&gt;Imitation&lt;/i&gt; even found an audience in India with the 19th-century Hindu philosopher-monk Ramakrisha, who cherished it along with the &lt;i&gt;Bhagavad Gita&lt;/i&gt; as one of his favorite books.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1653</dc:source>
 		<dc:source>https://archive.org/details/imitationchrist07thomgoog</dc:source>
 		<dc:source>https://archive.org/details/dli.bengal.10689.16231</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">Some Bible citations in the endnotes were erroneous and did not refer to relevant verses. The problematic citations were cross-referenced against Beeching’s translation, which is correct throughout.</meta>
+		<meta property="se:word-count">62876</meta>
+		<meta property="se:reading-ease.flesch">65.86</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Imitation_of_Christ</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-a-kempis_the-imitation-of-christ_william-benham</meta>
-		<meta property="se:production-notes">Some Bible citations in the endnotes were erroneous and did not refer to relevant verses. The problematic citations were cross-referenced against Beeching’s translation, which is correct throughout.</meta>
 		<dc:creator id="author">Thomas à Kempis</dc:creator>
 		<meta property="file-as" refines="#author">à Kempis, Thomas</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_%C3%A0_Kempis</meta>
@@ -91,6 +91,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
