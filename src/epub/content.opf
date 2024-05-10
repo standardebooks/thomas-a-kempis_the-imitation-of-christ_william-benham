@@ -49,7 +49,7 @@
 		<dc:source>https://archive.org/details/dli.bengal.10689.16231</dc:source>
 		<meta property="se:production-notes">Some Bible citations in the endnotes were erroneous and did not refer to relevant verses. The problematic citations were cross-referenced against Beeching’s translation, which is correct throughout.</meta>
 		<meta property="se:word-count">62876</meta>
-		<meta property="se:reading-ease.flesch">65.86</meta>
+		<meta property="se:reading-ease.flesch">65.96</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Imitation_of_Christ</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-a-kempis_the-imitation-of-christ_william-benham</meta>
 		<dc:creator id="author">Thomas à Kempis</dc:creator>
