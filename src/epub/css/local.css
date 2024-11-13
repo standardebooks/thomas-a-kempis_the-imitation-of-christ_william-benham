@@ -7,7 +7,7 @@ body [xml|lang]{
 }
 
 /* Begin dedication CSS */
-[epub|type~="z3998:recipient"],
+#dedication header,
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
