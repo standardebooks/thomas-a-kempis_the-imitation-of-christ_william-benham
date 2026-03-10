@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="preface.xhtml">
 		<ignore code="t-060">
+			<line>13</line>
 			<reason>Matched text is not a Bible reference.</reason>
 		</ignore>
 	</file>
