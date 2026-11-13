@@ -64,7 +64,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="translator">William Benham</dc:contributor>
 		<meta property="file-as" refines="#translator">Benham, William</meta>
-		<link href="https://en.wikipedia.org/wiki/William_Benham" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/William_Benham_(priest)" refines="#translator" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n86144427.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
